@@ -1,0 +1,5 @@
+<ol class="list-group">
+  <li ng-repeat = "cat in $ctrl.category" class="list-group-item">
+    <a ui-sref="itemDetail({itemSNM: cat.short_name})">{{cat.name}}</a>
+  </li>
+</ol>
